@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'Kumar';
+    src: url(../fontes/KumarOne/KumarOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fontes/Montserra/MontserratSubrayada-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*MENU*/
+header{
+    background-image: url(../images/image-parlamento_resized.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#menu-horizontal ul{
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(56, 56, 56, 0.47);
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu-horizontal ul li a {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Kumar';
+}
+
+h1{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    width: 360px;
+    height: 108px;
+    margin-left: 100px;
+}
+
+#titulo-cabecalho{
+    background-color: rgba(110, 109, 109, 0.83);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*definiçao*/
+#definicao{
+    background-color: #BFBFBF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.retangulo-superior{
+    background-color: rgba(110, 109, 109, 0.83);
+    width: 100vw;
+    height: 6vh;
+}
+
+h2{
+    font-family: 'Kumar';
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#titulo-definicao{
+    display: flex;
+    justify-content: center;
+}
+
+#definicao-parlamento{
+    border-radius: 49px;
+    background: #D9D9D9;
+    width: 486px;
+    height: 476px;
+    font-family: 'Kumar';
+    
+}
+
+#definicao-parlamento p{
+    font-size: 15px;
+    width: 450px;
+    height: 308px;
+    text-align: justify;
+    margin-left: 15px;
+    
+}
+
+#definicao-imprensa p{
+    font-size: 15px;
+    width: 408px;
+    height: 308px;
+    text-align: justify;
+    margin-left: 35px;
+}
+
+#definicao-imprensa{
+    border-radius: 49px;
+    background: #D9D9D9;
+    width: 486px;
+    height: 476px;
+    font-family: 'Kumar';
+}
+
+#informacao-definicao{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-family: 'Kumar';
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+/*inglaterraXIX*/
+
+#inglaterraXIX{
+    background-color: #BFBFBF;
+    width: 100vw;
+    height: 100vh;
+}
+
+#titulo-inglaterra{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#textos-inglaterra{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#image-england{
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+}
+
+#texto-dir-inglaterra p{
+    font-size: 13px;
+    width: 452px;
+    height: 414px;
+    text-align: justify;
+    margin-left: 80px;
+    font-family: 'Kumar';
+    margin-top: 40px;
+}
+
+#texto-cnt-inglaterra p{
+    font-size: 13px;
+    width: 452px;
+    height: 414px;
+    text-align: justify;
+    font-family: 'Kumar';
+    
+}
+    
+#texto-esq-inglaterra p{
+    font-size: 13px;
+    width: 350px;
+    height: 310px;
+    text-align: justify;
+    font-family:'Kumar';
+    margin-right: 80px;
+    
+}
+
+/*brasilXIX*/
+
+#brasilXIX{
+    background-color: #BFBFBF;
+    width: 100vw;
+    height: 100vh;
+}
+
+#textos-brasil{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#titulo-brasil{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 370px;
+   
+}
+
+#texto-dir-brasil p{
+    font-size: 15px;
+    width: 700px;
+    height: 200px;
+    text-align: justify;
+    margin-left: 30px;
+    font-family: 'Kumar';
+    
+}
+
+#texto-cnt-brasil p{
+    font-size: 14px;
+    width: 700px;
+    height: 400px;
+    text-align: justify;
+    margin-right: 30px;
+    font-family: 'Kumar';
+    margin-top: 40px;
+    
+}
+
+#parlamento-brasil{
+    width: 400px;
+    height: 200px;
+    margin-left: 150px; 
+    margin-top: 350px;
+}
+
+#bandeira-brasil{
+    width: 350px;
+    height: 220px;
+    margin-left: 170px;
+  
+    
+}
+
+
+
+/*jornais*/
+
+#jornais{
+    background-color: #BFBFBF;
+    width: 100vw;
+    height: 100vh;
+}
+
+#titulo-jornais{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#textos-jornais{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+#texto-gazeta p{
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    font-family: 'Kumar';
+    margin-top: 40px;
+}
+
+#texto-semana-ilustrada p{
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    font-family: 'Kumar';
+    margin-top: 40px;
+}
+
+#texto-diario-rj p{
+    font-size: 14px;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    font-family: 'Kumar';
+    margin-top: 40px;
+}
+
+h4{
+    font-family: 'Kumar';
+    color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+/*sobrenos*/
+#sobrenos{
+    background-color: #BFBFBF;
+    width: 100vw;
+    height: 90vh;
+}
+
+#titulo-sobrenos{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-integrantes{
+    margin-left: 50px;
+}
+
+.texto-sobrenos{
+    margin-left: 50px;
+    font-size: 20px;
+    width: 90vw;
+    height: 115px;
+    text-align: justify;
+    font-family: 'Kumar';
+    margin-top: 40px;
+}
+
+#texto-integrantes{
+    margin-left: 50px;
+    font-size: 19px;
+    width: 90vw;
+    height: 115px;
+    text-align: justify;
+    font-family: 'Kumar';
+    margin-top: 30px;
+}
+
+#texto-integrantes ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+/*rodapé*/
+footer{
+    background-color: #DBDBDB;
+    width: 100vw;
+    height: 10vh;
+}
+
+#titulo-contato{
+    font-size: 15px;
+}
+
+#texto-contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#texto-contato p{
+    font-size: 10px;
+    margin-top: 15px;
+    font-family: 'Kumar';
+}
+
+h5{
+    font-family: 'Kumar';
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 400px) {
+    
+    #menu-horizontal ul{
+        height: 8vh;
+    }
+
+    #menu-horizontal ul li a{
+        font-size: 8px;
+    }
+
+    h1{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    #definicao-parlamento p{
+        font-size: 5px;
+        width: 150px;
+        height: 270px;
+        margin-left: 10px;
+    }
+
+    #definicao-imprensa p{
+        font-size: 5px;
+        width: 110px;
+        height: 210px;
+
+    }
+
+
+    #definicao-parlamento {
+        width: 170px;
+        height: 220px;
+    }
+
+    #definicao-imprensa {
+        width: 170px;
+        height: 220px;
+    }
+
+    h3{
+        font-size: 10px;
+    }
+
+    #texto-dir-inglaterra p{
+        font-size: 4px;
+        width: 120px;
+        height: 70px;
+    }
+
+    #texto-cnt-inglaterra p{
+        font-size: 4px;
+        width: 120px;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    #texto-esq-inglaterra p{
+        font-size: 4px;
+        width: 120px;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+    #image-england{
+        width: 100px;
+        height: 50px;
+    }
+    
+    #texto-dir-brasil p{
+        font-size: 4px;
+        width: 180px;
+        height: 70px;
+    }
+
+    #texto-cnt-brasil p{
+        font-size: 4px;
+        width: 180px;
+        height: 70px;
+    }
+
+    #parlamento-brasil{
+        width: 100px;
+        height: 50px;
+    }
+
+    #bandeira-brasil{
+        width: 100px;
+        height: 50px;
+    }
+
+    #titulo-brasil{
+        font-size: 10px;
+    }
+}
